@@ -1,0 +1,45 @@
+.card{
+    background-color: green;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    .card-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .image{
+            height: 200px;
+            border-radius: 5px;
+        }
+    }
+
+    .card-body{
+        .tittle{
+            color: white;
+            text-align: center;
+        }
+        .desc{
+            color: white;
+            font-weight: 500;
+        }
+    }
+
+    .card-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn{
+            padding: 5px 10px;
+            font-weight: 600;
+            background-color: greenyellow;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            &:active{
+                background-color: blanchedalmond;
+            }
+        }
+    }
+    
+}
