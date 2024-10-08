@@ -1,21 +1,24 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule} from '@angular/common';
+import { CardComponent } from "../../components/card/card.component";
 
 @Component({
   selector: 'ui-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  @Input() image!:string;
-  @Input() title!:string;
-  @Input() info!:string;
-  @Input() btnText!:string;
-  @Input() clickEvent!:() => void;
+  verPerfil(){
+    alert("Ver Perfil");
+  }
 
-  onClick(){
-    this.clickEvent();
+  conocerMas(){
+    alert("Conocer Mas");
+  }
+
+  goProducts(){
+    window.location.href = "/products";
   }
 }

@@ -1,45 +1,22 @@
-.card{
-    background-color: green;
-    width: 250px;
-    height: auto;
-    padding: 10px;
-    border-radius: 10px;
-    .card-header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .image{
-            height: 200px;
-            border-radius: 5px;
-        }
-    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgray;
+    gap: 20px;
+}
 
-    .card-body{
-        .tittle{
-            color: white;
-            text-align: center;
-        }
-        .desc{
-            color: white;
-            font-weight: 500;
-        }
+.btn{
+    padding: 5px 10px;
+    font-weight: 600;
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    &:active{
+        background-color: blanchedalmond;
     }
-
-    .card-footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .btn{
-            padding: 5px 10px;
-            font-weight: 600;
-            background-color: greenyellow;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            &:active{
-                background-color: blanchedalmond;
-            }
-        }
-    }
-    
 }
