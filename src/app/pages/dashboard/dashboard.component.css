@@ -1,0 +1,52 @@
+.admin {
+    background-color: #f4f4f9; /* Fondo claro y profesional */
+    border-left: 5px solid #007BFF; /* Borde azul destacado */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.admin h3 {
+    color: #007BFF; /* Azul para resaltar el nombre del admin */
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.admin span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #333; /* Texto oscuro */
+}
+
+.admin b {
+    color: #FF5733; /* Color llamativo para el título "Rol" */
+}
+
+.vendedor {
+    background-color: #e0f7fa; /* Un azul claro fresco y amigable */
+    border-left: 5px solid #00acc1; /* Borde azul intenso que destaca */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.vendedor h3 {
+    color: #00796b; /* Verde para resaltar el nombre del vendedor */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.vendedor span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #333; /* Texto oscuro para claridad */
+}
+
+.vendedor b {
+    color: #f57c00; /* Naranja vibrante para el título "Rol" */
+}

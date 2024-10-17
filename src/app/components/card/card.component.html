@@ -1,12 +1,9 @@
 <div class="card">
-    <div class="card-header">
-        <img [src]="productos.img" alt="" class="image">
-    </div>
     <div class="card-body">
-        <h2 class="tittle">{{productos.name}}</h2>
+        <h2 class="tittle">{{data.name}}</h2>
         <input id="text" type="text" class="text" (change)="onChange($event)">
-        <p class="desc">{{productos.desc}}</p>
-        <p class="desc">{{productos.price}}</p>
+        <p class="desc">{{data.description}}</p>
+
     </div>
     <div class="card-footer">
         <button class="btn" (click)="onClick()">Ver datos en consola</button>

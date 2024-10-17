@@ -1,0 +1,19 @@
+<div class="container">
+    @for (usuario of usuarios; track usuario.id) {
+        @if (usuario.rol.rol === "admin") {
+            <div class="admin">
+                <h3>{{usuario.name}}</h3>
+                <span>{{usuario.description}}<br></span>
+                <span><b>Rol:</b>{{usuario.rol.rol}}</span>
+            </div>
+        }@else if (usuario.rol.rol === "cliente") {
+            <app-card [data] = "usuario"/>
+        }@else {
+            <div class="vendedor">
+                <h3>{{usuario.name}}</h3>
+                <span>{{usuario.description}}<br></span>
+                <span><b>Rol:</b> {{usuario.rol.rol}}</span>
+            </div>
+        }
+    }
+</div>
